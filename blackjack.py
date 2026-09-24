@@ -1,4 +1,4 @@
-from script import logo
+from attachments import logo
 import random
 
 play=input("Do you want to play game of Blackjack? Type 'y' or 'no': ")

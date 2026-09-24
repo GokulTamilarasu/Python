@@ -1,4 +1,4 @@
-from script import logo
+from attachments import logo
 import random
 
 def dealer():
@@ -25,21 +25,22 @@ def play_blackjack():
     user_cards=[]
     computer_cards=[]
     if play== 'y':
-        user_cards.append(dealer)
-        user_cards.append(dealer)
-        computer_cards.append(dealer)
-        computer_cards.append(dealer)
+        user_cards.append(dealer())
+        user_cards.append(dealer())
+        computer_cards.append(dealer())
+        computer_cards.append(dealer())
         print(f"Your cards are {user_cards}")
         print(f"Computer's cards are {computer_cards[0]}")
         new_card=input("Type 'y' to get another card, type 'n' to pass: ")
         if new_card=='y':
-            user_cards.append(dealer)
+            user_cards.append(dealer())
             print(f"Your new card is {user_cards[2]}")
-            computer_cards.append(dealer)
-            compare(calculate(user_cards,computer_cards))
+            computer_cards.append(dealer())
+            user_total, computer_total = calculate(user_cards, computer_cards)
+            compare(user_total,computer_total)
         else:
-            compare(calculate(user_cards, computer_cards))
-
+            user_total, computer_total = calculate(user_cards, computer_cards)
+            compare(user_total, computer_total)
 
 play_blackjack()
 
