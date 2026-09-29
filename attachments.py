@@ -253,3 +253,17 @@ logo = r"""
       `------'                           |__/           
 """
 
+# from turtle import Turtle,Screen
+#
+# nemo =Turtle()
+# new_screen=Screen()
+# nemo.color('green',"blue")
+# nemo.shape("turtle")
+# nemo.forward(150)
+# new_screen.exitonclick()
+from prettytable import PrettyTable
+
+table = PrettyTable()
+table.add_column("Pokemon Name", ['Pikachu', 'Charmandar', 'Squirtle'], 'l', 'b')
+table.add_column("Type", ['electricity', 'fire', 'water'], 'l', 'b')
+print(table)
