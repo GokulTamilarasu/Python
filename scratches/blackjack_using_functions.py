@@ -1,4 +1,4 @@
-from attachments import logo
+from scratches.attachments import logo
 import random
 
 def dealer():

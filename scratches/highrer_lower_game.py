@@ -1,6 +1,3 @@
-from game_data import data
-from art import logo, vs
-import random,os
 #
 # def compare(person1,person2,user_choice,score):
 #     global continuing
@@ -44,8 +41,8 @@ import random,os
 # print(f'Score: {score}')
 #
 #
-from game_data import data
-from art import logo, vs
+from scratches.game_data import data
+from scratches.art import logo, vs
 import random,os
 def clear_screen():
 

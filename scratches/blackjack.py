@@ -1,4 +1,4 @@
-from attachments import logo
+from scratches.attachments import logo
 import random
 
 play=input("Do you want to play game of Blackjack? Type 'y' or 'no': ")
