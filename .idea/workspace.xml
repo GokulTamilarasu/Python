@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day16-oop coffe_machine">
-      <change afterPath="$PROJECT_DIR$/turtles/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attachments.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/attachments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/auction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/blackjack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack_using_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/blackjack_using_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceasar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/ceasar_cipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffe_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/coffe_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/game_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess_the_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/guess_the_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/highrer_lower_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/highrer_lower_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_coffe_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/oop_coffe_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratches/script.py" afterDir="false" />
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day18- turtles">
+      <change afterPath="$PROJECT_DIR$/turtles/image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtles/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtles/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +68,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/turtles" />
       <recent name="$PROJECT_DIR$/scratches" />
     </key>
   </component>
@@ -182,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790694283432</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day18- turtles">
+      <option name="closed" value="true" />
+      <created>1791299727257</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1791299727257</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +198,8 @@
     <MESSAGE value="day14 and day15" />
     <MESSAGE value="day15-done" />
     <MESSAGE value="day16-oop coffe_machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="day16-oop coffe_machine" />
+    <MESSAGE value="day18- turtles" />
+    <option name="LAST_COMMIT_MESSAGE" value="day18- turtles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
