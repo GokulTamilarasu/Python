@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day18- turtles">
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/gokul_04/PycharmProjects/Python100D",
+    "last_opened_file_path": "/home/gokul_04/PycharmProjects/snake game",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -181,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791384671331</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="day19">
+      <option name="closed" value="true" />
+      <created>1791441143873</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1791441143873</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +212,8 @@
     <MESSAGE value="day15-done" />
     <MESSAGE value="day16-oop coffe_machine" />
     <MESSAGE value="day18- turtles" />
-    <option name="LAST_COMMIT_MESSAGE" value="day18- turtles" />
+    <MESSAGE value="day19" />
+    <option name="LAST_COMMIT_MESSAGE" value="day19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
