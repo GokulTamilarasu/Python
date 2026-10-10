@@ -1,8 +1,11 @@
 from snake import Snake
 from food import Food
+from scoreboard import Scoreboard
 snake=Snake()
 food=Food()
+score=Scoreboard()
 is_game_on=True
+points=0
 snake.screen_2.setup(width=300,height=300)
 snake.screen_2.bgcolor("black")
 snake.screen_2.listen()
@@ -25,11 +28,18 @@ snake.screen_2.onkey(key="Right",fun=snake.rightwards)
 
 #detecting food collision
 def game_loop():
+    global points
     snake.auto_move()
     if snake.head.distance(food) < 15:
-        print("nom")
-    snake.screen_2.ontimer(fun=game_loop, t=100)
+        food.refresh()
+        points+=1
+        score.write_on_screen(points)
+    snake.screen_2.ontimer(fun=game_loop, t=50)
+    return points
 
+
+
+score.write_on_screen(points)
 
 
 game_loop()

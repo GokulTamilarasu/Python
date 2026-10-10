@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day19">
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day20-building snake game">
+      <change afterPath="$PROJECT_DIR$/snake-game/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake-game/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake-game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake-game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +60,11 @@
     "Python.keystrokes.executor": "Run",
     "Python.main.executor": "Run",
     "Python.object_turtle.executor": "Run",
+    "Python.snake.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/gokul_04/PycharmProjects/snake game",
+    "last_opened_file_path": "/home/gokul_04/PycharmProjects/Python100D",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -189,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791441143873</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day20-building snake game">
+      <option name="closed" value="true" />
+      <created>1791558423021</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1791558423021</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +226,8 @@
     <MESSAGE value="day16-oop coffe_machine" />
     <MESSAGE value="day18- turtles" />
     <MESSAGE value="day19" />
-    <option name="LAST_COMMIT_MESSAGE" value="day19" />
+    <MESSAGE value="day20-building snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="day20-building snake game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

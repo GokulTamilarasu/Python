@@ -42,3 +42,10 @@ class Snake:
             self.segments_list[seg_index].goto(x=new_xcor, y=new_ycor)
         self.head.forward(10)
 
+    # def add_segment(self):
+    #     new_segment = Turtle()
+    #     new_segment.penup()
+    #     new_segment.color("white")
+    #     new_segment.shape("circle")
+    #     self.segments_list.append(new_segment)
+
