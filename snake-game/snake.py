@@ -1,12 +1,13 @@
-from turtle import Turtle,Screen
+import random
+from turtle import Turtle
 
 INITIAL_POSITIONS=[0,20,40]
 class Snake:
     def __init__(self):
         self.segments_list=[]
         self.create_snake()
-        self.screen_2=Screen()
         self.head=self.segments_list[0]
+
 
 
 
@@ -40,12 +41,15 @@ class Snake:
             new_xcor =self.segments_list[seg_index - 1].xcor()
             new_ycor =self.segments_list[seg_index - 1].ycor()
             self.segments_list[seg_index].goto(x=new_xcor, y=new_ycor)
-        self.head.forward(10)
+        self.head.forward(20)
 
-    # def add_segment(self):
-    #     new_segment = Turtle()
-    #     new_segment.penup()
-    #     new_segment.color("white")
-    #     new_segment.shape("circle")
-    #     self.segments_list.append(new_segment)
-
+    def add_new_segment(self):
+        new_segment = Turtle()
+        new_segment.hideturtle()
+        new_segment.shape("circle")
+        new_segment.color("white")
+        new_segment.penup()
+        new_pos=self.segments_list[-1].position()
+        new_segment.goto(new_pos)
+        self.segments_list.append(new_segment)
+        new_segment.showturtle()

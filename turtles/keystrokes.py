@@ -55,4 +55,5 @@ while is_race_on:
             else:
                 print(f"you lose, {turtle.pencolor()} won")
 
+
 screen_1.exitonclick()
