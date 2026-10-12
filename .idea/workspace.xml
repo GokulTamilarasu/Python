@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day20-building snake game">
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day21-building snake game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake-game/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake-game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake-game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake-game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake-game/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtles/keystrokes.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtles/keystrokes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791629755474</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day21-building snake game">
+      <option name="closed" value="true" />
+      <created>1791730663027</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1791730663027</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +242,8 @@
     <MESSAGE value="day18- turtles" />
     <MESSAGE value="day19" />
     <MESSAGE value="day20-building snake game" />
-    <option name="LAST_COMMIT_MESSAGE" value="day20-building snake game" />
+    <MESSAGE value="day21-building snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="day21-building snake game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

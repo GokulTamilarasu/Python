@@ -1,4 +1,3 @@
-import random
 from turtle import Turtle
 
 INITIAL_POSITIONS=[0,20,40]
@@ -7,6 +6,7 @@ class Snake:
         self.segments_list=[]
         self.create_snake()
         self.head=self.segments_list[0]
+        self.tail=self.segments_list[-1]
 
 
 
@@ -53,3 +53,8 @@ class Snake:
         new_segment.goto(new_pos)
         self.segments_list.append(new_segment)
         new_segment.showturtle()
+        self.tail=self.segments_list[-1]
+
+    def hide_snake(self):
+        for segment in self.segments_list:
+            segment.hideturtle()

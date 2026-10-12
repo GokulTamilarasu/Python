@@ -1,3 +1,5 @@
+from math import sqrt
+
 from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
@@ -5,6 +7,7 @@ from turtle import Screen,Turtle
 snake=Snake()
 food=Food()
 score=Scoreboard()
+game_over=Scoreboard()
 screen_2=Screen()
 is_game_on=True
 points=0
@@ -36,8 +39,24 @@ screen_2.onkey(key="Right",fun=snake.rightwards)
 
 
 def game_loop():
-    global points
-    snake.auto_move()
+    global points,is_game_on
+    if is_game_on:
+        snake.auto_move()
+    # wall collision check
+    if snake.head.xcor() < -280 or snake.head.xcor() > 280 or snake.head.ycor() < -280 or snake.head.ycor() > 240:
+        is_game_on = False
+        game_over.stop_game()
+        snake.hide_snake()
+        food.hideturtle()
+
+    # tail collision
+    for segment in snake.segments_list[3:]:
+        if snake.head.distance(segment) < 50:
+            is_game_on = False
+            score.stop_game()
+            snake.hide_snake()
+            food.hideturtle()
+
     # detecting food collision
     if snake.head.distance(food) < 15:
         food.refresh()
@@ -45,9 +64,9 @@ def game_loop():
         score.write_on_screen(points)
         snake.add_new_segment()
     screen_2.update()
-    #wall collision check
-    if snake.head.xcor()< -280:
-        print("game over")
+
+
+
     screen_2.ontimer(fun=game_loop, t=100)
     return points
 
