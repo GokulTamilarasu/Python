@@ -1,4 +1,4 @@
-from math import sqrt
+
 
 from snake import Snake
 from food import Food
@@ -25,9 +25,9 @@ wall.penup()
 wall.goto(-280, -280)
 wall.pendown()
 for _ in range(2):
-    wall.forward(560)  # Width of the box
+    wall.forward(560)
     wall.left(90)
-    wall.forward(520)  # Height of the box (leaves top space for score)
+    wall.forward(520)
     wall.left(90)
 
 
@@ -50,8 +50,8 @@ def game_loop():
         food.hideturtle()
 
     # tail collision
-    for segment in snake.segments_list[3:]:
-        if snake.head.distance(segment) < 50:
+    for segment in snake.segments_list[1::]:
+        if snake.head.distance(segment) < 10:
             is_game_on = False
             score.stop_game()
             snake.hide_snake()
@@ -64,24 +64,10 @@ def game_loop():
         score.write_on_screen(points)
         snake.add_new_segment()
     screen_2.update()
-
-
-
     screen_2.ontimer(fun=game_loop, t=100)
     return points
 
 
-
 score.write_on_screen(points)
-
-
 game_loop()
-
-
-
-
-
-
-
-
 screen_2.exitonclick()

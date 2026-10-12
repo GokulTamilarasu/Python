@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-INITIAL_POSITIONS=[0,20,40]
+INITIAL_POSITIONS=[0,-20,-40]
 class Snake:
     def __init__(self):
         self.segments_list=[]
@@ -22,19 +22,23 @@ class Snake:
 
     def upwards(self):
         segment =self.segments_list[0]
-        segment.setheading(90)
+        if self.head.heading() != 270:
+            segment.setheading(90)
 
     def downwards(self):
         segment = self.segments_list[0]
-        segment.setheading(-90)
+        if self.head.heading() != 90:
+            segment.setheading(270)
 
     def leftwards(self):
         segment = self.segments_list[0]
-        segment.setheading(180)
+        if self.head.heading() != 0:
+            segment.setheading(180)
 
     def rightwards(self):
         segment = self.segments_list[0]
-        segment.setheading(0)
+        if self.head.heading() != 180:
+            segment.setheading(0)
 
     def auto_move(self):
         for seg_index in range(len(self.segments_list) - 1, 0, -1):
