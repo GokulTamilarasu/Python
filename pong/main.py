@@ -3,6 +3,7 @@
 #ball class needed
 #scoreboard class
 #x=450,y=1000
+import time
 from turtle import Turtle,Screen
 from user import User
 from scorecard import Scorecard
@@ -44,13 +45,24 @@ score_2=Scorecard()
 #game loop
 is_game_on=True
 ball=Ball()
+#scoreboard
+points_1 = 0
+points_2 = 1
+score_1.goto(-200, 470)
+score_2.goto(200, 470)
+score_1.score_display(points=points_1)
+score_2.score_display(points=points_2)
 while is_game_on:
-    points_1=0
-    points_2=1
-    score_1.goto(-200,470)
-    score_2.goto(200,470)
-    score_1.score_display(points=points_1)
-    score_2.score_display(points=points_2)
+    ball.ball_move()
+    time.sleep(0.5)
+    if ball.ycor() >=-450 or ball.ycor() >=450:
+        ball.y_change()
+    elif ball.distance(user_1) <5 :
+        ball.x_change()
+        ball.y_change()
+    elif ball.distance(user_2) <5:
+        ball.x_change()
+        ball.y_change()
     pong_screen.update()
 
 pong_screen.exitonclick()

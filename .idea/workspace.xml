@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day21-building snake game-done">
-      <change afterPath="$PROJECT_DIR$/pong/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pong/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pong/scorecard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pong/user.py" afterDir="false" />
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day22-building pong game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pong/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/ball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pong/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.attachments.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ball.executor&quot;: &quot;Run&quot;,
     &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
     &quot;Python.blackjack_using_functions.executor&quot;: &quot;Run&quot;,
     &quot;Python.calc.executor&quot;: &quot;Run&quot;,
@@ -235,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791797814081</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day22-building pong game">
+      <option name="closed" value="true" />
+      <created>1791990429468</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1791990429468</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +269,8 @@
     <MESSAGE value="day20-building snake game" />
     <MESSAGE value="day21-building snake game" />
     <MESSAGE value="day21-building snake game-done" />
-    <option name="LAST_COMMIT_MESSAGE" value="day21-building snake game-done" />
+    <MESSAGE value="day22-building pong game" />
+    <option name="LAST_COMMIT_MESSAGE" value="day22-building pong game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
