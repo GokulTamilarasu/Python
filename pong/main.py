@@ -57,12 +57,18 @@ while is_game_on:
     time.sleep(0.5)
     if ball.ycor() >=-450 or ball.ycor() >=450:
         ball.y_change()
-    elif ball.distance(user_1) <5 :
+    if (ball.distance(user_1) < 50 and ball.xcor() > 430) or (
+            ball.distance(user_2) < 50 and ball.xcor() < -430
+    ):
         ball.x_change()
-        ball.y_change()
-    elif ball.distance(user_2) <5:
-        ball.x_change()
-        ball.y_change()
+    if ball.xcor() > 480:
+        points_1 += 1
+        score_1.score_display(points=points_1)
+        ball.reset_position()
+    if ball.xcor() < -480:
+        points_2 += 1
+        score_2.score_display(points=points_2)
+        ball.reset_position()
     pong_screen.update()
 
 pong_screen.exitonclick()
