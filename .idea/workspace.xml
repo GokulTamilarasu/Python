@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day22-building pong game">
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day22-building pong game still change of direction need to be adjusted">
+      <change afterPath="$PROJECT_DIR$/turtle_crossing/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle_crossing/obstacles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle_crossing/turtles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pong/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pong/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/main.py" afterDir="false" />
     </list>
@@ -44,29 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.attachments.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ball.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blackjack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blackjack_using_functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coffe_machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dsa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guess_the_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.highrer_lower_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.keystrokes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object_turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gokul_04/PycharmProjects/Python100D&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.attachments.executor": "Debug",
+    "Python.ball.executor": "Run",
+    "Python.blackjack.executor": "Run",
+    "Python.blackjack_using_functions.executor": "Run",
+    "Python.calc.executor": "Run",
+    "Python.coffe_machine.executor": "Run",
+    "Python.dsa.executor": "Run",
+    "Python.guess_the_number.executor": "Run",
+    "Python.highrer_lower_game.executor": "Run",
+    "Python.keystrokes.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.object_turtle.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.turtles.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/gokul_04/PycharmProjects/Python100D",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/turtles" />
@@ -249,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792157861925</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day22-building pong game">
+      <option name="closed" value="true" />
+      <created>1792158164185</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1792158164185</updated>
+    </task>
+    <task id="LOCAL-00023" summary="day22-building pong game still change of direction need to be adjusted">
+      <option name="closed" value="true" />
+      <created>1792158197692</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1792158197692</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +298,8 @@
     <MESSAGE value="day21-building snake game" />
     <MESSAGE value="day21-building snake game-done" />
     <MESSAGE value="day22-building pong game" />
-    <option name="LAST_COMMIT_MESSAGE" value="day22-building pong game" />
+    <MESSAGE value="day22-building pong game still change of direction need to be adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="day22-building pong game still change of direction need to be adjusted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

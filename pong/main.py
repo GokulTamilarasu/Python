@@ -54,7 +54,7 @@ score_1.score_display(points=points_1)
 score_2.score_display(points=points_2)
 while is_game_on:
     ball.ball_move()
-    time.sleep(0.5)
+    time.sleep(0.1)
     if ball.ycor() >=-450 or ball.ycor() >=450:
         ball.y_change()
     if (ball.distance(user_1) < 50 and ball.xcor() > 430) or (
