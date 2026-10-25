@@ -27,6 +27,7 @@ while game_is_on:
             game_is_on=False
     if turtle_player.ycor()>280:
         turtle_player.next_level()
+        screen.update()
         level.increase_level()
         car.increase_speed()
 

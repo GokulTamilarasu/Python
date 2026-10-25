@@ -9,7 +9,7 @@ class Scoreboard():
         self.scoreboard.penup()
         self.scoreboard.goto(x=-260,y=270)
         self.level_no=1
-        self.scoreboard.write(f"Level {self.level_no}:",False,"left",FONT)
+
 
     def game_over(self):
         game=Turtle()
@@ -17,3 +17,6 @@ class Scoreboard():
         game.write("Game Over",False,"center",FONT)
     def increase_level(self):
         self.level_no+=1
+        self.update()
+    def update(self):
+        self.scoreboard.write(f"Level {self.level_no}:", False, "left", FONT)
