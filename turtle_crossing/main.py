@@ -1,6 +1,7 @@
 # from turtles import Player
 from turtle import Screen,Turtle
 from obstacles import Obstacles
+import random
 from turtles import Player
 from turtle_crossing.turtles import Player
 
@@ -20,9 +21,11 @@ turtle_screen.onkey(fun=player.move_down,key='Down')
 
 #obstacles
 while is_game_on:
-    obstacle=Obstacles()
+    obstacle = Obstacles()
     obstacle.random_position()
-    while is_game_on:
-        obstacle.forward(20)
+    obstacle.speed(random.randint(10,20))
+    f/home/gokul_04/Downloads/turtle-crossing-start
+    obstacle.forward(20)
+
 
 turtle_screen.exitonclick()

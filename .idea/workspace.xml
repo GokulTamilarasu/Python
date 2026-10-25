@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="day22-building pong game still change of direction need to be adjusted">
-      <change afterPath="$PROJECT_DIR$/turtle_crossing/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_crossing/obstacles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_crossing/turtles.py" afterDir="false" />
+    <list default="true" id="84ac6909-e0f6-43a7-877b-01f6171c43eb" name="Changes" comment="building turtle race">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pong/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pong/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pong/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle_crossing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle_crossing/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,7 @@
     "Python.blackjack.executor": "Run",
     "Python.blackjack_using_functions.executor": "Run",
     "Python.calc.executor": "Run",
+    "Python.car_manager.executor": "Run",
     "Python.coffe_machine.executor": "Run",
     "Python.dsa.executor": "Run",
     "Python.guess_the_number.executor": "Run",
@@ -63,6 +60,7 @@
     "Python.keystrokes.executor": "Run",
     "Python.main.executor": "Run",
     "Python.object_turtle.executor": "Run",
+    "Python.player.executor": "Run",
     "Python.snake.executor": "Run",
     "Python.turtles.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -270,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792158197692</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="building turtle race">
+      <option name="closed" value="true" />
+      <created>1792311713470</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1792311713470</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +305,8 @@
     <MESSAGE value="day21-building snake game-done" />
     <MESSAGE value="day22-building pong game" />
     <MESSAGE value="day22-building pong game still change of direction need to be adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="day22-building pong game still change of direction need to be adjusted" />
+    <MESSAGE value="building turtle race" />
+    <option name="LAST_COMMIT_MESSAGE" value="building turtle race" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
