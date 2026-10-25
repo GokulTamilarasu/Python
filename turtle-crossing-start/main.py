@@ -13,13 +13,23 @@ turtle_player=Player()
 screen.onkey(fun=turtle_player.move,key='Up')
 #cars
 car=CarManager()
-
+#scoreboard
+level=Scoreboard()
 game_is_on = True
 while game_is_on:
     time.sleep(0.1)
     screen.update()
     car.create()
     car.move_car()
+    for cars in car.car_list:
+        if turtle_player.distance(cars)<20:
+            level.game_over()
+            game_is_on=False
+    if turtle_player.ycor()>280:
+        turtle_player.next_level()
+        level.increase_level()
+        car.increase_speed()
+
 
 
 screen.exitonclick()

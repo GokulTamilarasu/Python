@@ -13,7 +13,9 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
 
     def move(self):
-        self.forward(10)
+        self.forward(MOVE_DISTANCE)
+    def next_level(self):
+        self.goto(STARTING_POSITION)
 
 
 
